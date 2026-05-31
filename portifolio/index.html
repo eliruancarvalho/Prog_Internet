@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Pessoal | Analista de dados / Estudante de Tecnologia</title>
+    <title>Portifolio Profissional | Analista de dados / Estudante de Tecnologia</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="topo">
     <header>
-    <h1>Eli Ruan</h1>
+    <h1>Olá, sou Eli Ruan</h1>
     <nav>
         <ul>
             <li><a href="#sobre">Sobre Mim</a></li>
@@ -21,8 +21,15 @@
 <main>
     <section id="sobre">
         <h2>Sobre Mim</h2>
-        <img src="img/foto.jpeg" alt="Foto de Perfil Eli Ruan">
-        <p>Profissional de Análise de Dados e Estudante de Tecnologia focado em desenvolvimento de sistemas e arquitetura de banco de dados relacionais.</p>
+        <div class="sobre-conteudo">
+            <div class="sobre-texto">
+                <p>Profissional de Análise de Dados e Estudante de Tecnologia focado em arquitetura de banco de dados relacionais, análise e desenvolvimento de sistemas. </p>
+                <br>
+                <p>Conectando dados, tecnologia e estratégia para criar soluções eficientes. Busco constantemente aprender novas tecnologias e melhores práticas na área.</p>
+                <br>
+            </div>
+            <img src="img/foto.png" alt="Foto de Perfil de Eli Ruan" class="foto-perfil">
+        </div>
     </section>
     <section id="habilidades">
         <h2>Habilidades Técnicas</h2>
@@ -49,30 +56,30 @@
         <h3>Outras Ferramentas</h3>
         <ul>
             <li>Modelagem de Dados (Diagramas ER)</li>
-            <li>Data Studio e Business Intelligence</li>
+            <li>Data Studio e Power BI</li>
         </ul>
     </section>
     <section id="projetos">
         <h2>Meus Projetos</h2>
-        
+        <div class="projetos-grid">
         <article>
             <h3>Estruturação de bases de dados educacionais</h3>
             <img src="img/projeto1.png" alt="Exemplo de código SQL de transformação">
             <p>Desenvolvimento e estruturação de dados padronizados com mapeamento de esquemas relacionais de grandes volumes de dados educacionais brasileiros.</p>
         </article>
 
-        <article>
-            <h3>Montagem de bases de dados por Web Scraping em Python</h3>
-            <img src="img/projeto2.png" alt="Exemplo de código em Python para Web Scraping">
-            <p>Implementação de scripts otimizados em Python para extração, transformação e carga de dados de sistema educacional.</p>
-        </article>
+            <article>
+                <h3>Montagem de bases de dados por Web Scraping em Python</h3>
+                <img src="img/projeto2.png" alt="Exemplo de código em Python para Web Scraping">
+                <p>Implementação de scripts otimizados em Python para extração, transformação e carga de dados de sistema educacional.</p>
+            </article>
 
-        <article>
-            <h3>Automações de Relatórios analíticos de dados educacionais em Python</h3>
-            <img src="img/projeto3.png" alt="Automações de Relatórios de dados analíticos educacionais">
-            <p>Implementação de scripts otimizados em Python para extração, transformação e geração de relatórios automáticos de diversas bases de dados.</p>
-        </article>
-
+            <article>
+                <h3>Automações de Relatórios analíticos de dados educacionais em Python</h3>
+                <img src="img/projeto3.png" alt="Automações de Relatórios de dados analíticos educacionais">
+                <p>Implementação de scripts otimizados em Python para extração, transformação e geração de relatórios automáticos de diversas bases de dados.</p>
+            </article>
+        </div>
     </section>
     <section id="contato">
         <h2>Entre em Contato</h2>
@@ -94,6 +101,7 @@
 </main>
 <footer>
         <p>&copy; 2026 Eli Ruan dos Santos Carvalho. Todos os direitos reservados.</p>
+        <a href="#topo" class="btn-topo">Voltar ao Início &uarr;</a>
 </footer>
 </body>
 
