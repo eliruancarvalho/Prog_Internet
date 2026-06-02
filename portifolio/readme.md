@@ -17,5 +17,8 @@ Este projeto consiste em um portfólio web responsivo desenvolvido somente com H
 # Link do GitHub
 [https://github.com/eliruancarvalho/Prog_Internet/tree/main/portifolio]
 
+# Link do GitHub Pages
+[https://eliruancarvalho.github.io/Prog_Internet/]
+
 # Link do Vídeo de Apresentação
 [(https://drive.google.com/file/d/1kiQxp7Y6tvMdhNvJx6AfrK7GDCZWr9EX/view?usp=drive_link)]
